@@ -34,7 +34,7 @@ function ProjectsList() {
             <div>
                 <div className="grid lg:grid-cols-2 gap-8">
                     {
-                        projects.map((project) => <ProjectCard name={project.name} bgColor={project.bgColor} progress={project.progress} />)
+                        projects.map((project, index) => <ProjectCard key={index} name={project.name} bgColor={project.bgColor} progress={project.progress} />)
                     }
                 </div>
             </div>
@@ -47,7 +47,7 @@ function ProjectsList() {
 
                 <div className="grid gap-6">
                     {
-                        projects.map((project) => <DeliveryDetails title={project.name} deliverys={project.deliverys[0].articles} />)
+                        projects.map((project, index) => <DeliveryDetails key={index} title={project.name} deliverys={project.deliverys[0].articles} />)
                     }
                 </div>
             </div>

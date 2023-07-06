@@ -4,8 +4,8 @@ const DeliveryDetails = (props: Props) => (
         <p className="font-bold ">{props.title}</p>
         <ul className="list-disc px-8">
             {
-                props.deliverys.map((delivery) => (
-                    <li>
+                props.deliverys.map((delivery, index) => (
+                    <li key={index}>
                         {delivery}
                     </li>
                 ))
