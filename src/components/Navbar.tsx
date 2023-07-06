@@ -5,7 +5,7 @@ export default function Navbar() {
             <div className="w-[72px] h-[19.31px] left-[171px] top-[21.85px]">
                 <img className="w-[72px] h-[19.31px]" src="/images/logo.png" />
             </div>
-            <ul className="flex justify-between gap-12 items-center">
+            <ul className="flex justify-between gap-8 items-center">
                 <li>
                     <img className="cursor-pointer" src="/icons/mail.svg"/>
                 </li>
