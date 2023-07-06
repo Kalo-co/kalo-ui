@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid gap-4 max-h-[400px] overflow-y-auto">
+      <div className="grid gap-4 max-h-[400px] overflow-y-scroll">
         <div>
           <p className="text-lg font-bold">Entregas pendientes</p>
           <p className="text-[#A4A4A4] text-sm">Revisa las fechas cercanas para subir tus entregables</p>
@@ -55,7 +55,7 @@ export default function Home() {
 
   return (
     <main className="grid gap-10 items-center justify-between p-16 min-h-screen">
-      <div className='grid gap-4 px-14 py-8 bg-white rounded-md max-h shadow-2xl'>
+      <div className='grid gap-6 px-14 py-8 bg-white rounded-md max-h shadow-2xl'>
         <Header />
         <ProjectsList />
       </div>
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid justify-center border rounded-lg shadow-xl">
+        <div className="grid justify-center border rounded-xl shadow-xl">
           <div className="flex items-center px-10 border-b-2  gap-4">
             <img className="rounded-full object-cover w-[63px] h-[63px]" src="/images/project-manager.png" />
             <div>
