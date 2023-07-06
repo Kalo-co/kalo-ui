@@ -1,7 +1,7 @@
 import Accordeon from "./Accordeon";
 
 const StatusCard = () => (
-    <div className="grid grid-cols-2 gap-8 px-14 py-8 bg-white rounded-md max-h shadow-2xl">
+    <div className="grid md:grid-cols-2 gap-8 px-14 py-8 bg-white rounded-md max-h shadow-2xl">
         <div className="grid gap-4">
             <div className="grid gap-2">
                 <p className="text-xl font-bold">Status del proyecto</p>
@@ -19,15 +19,16 @@ const StatusCard = () => (
             </div>
         </div>
 
-        <div className="grid justify-center border rounded-xl shadow-xl">
-            <div className="flex items-center px-10 border-b-2  gap-4">
+        <div className="grid gap-2 justify-center border rounded-xl shadow-xl py-5">
+            <div className="flex items-center px-10 py-4 border-b-2 gap-4">
                 <img className="rounded-full object-cover w-[63px] h-[63px]" src="/images/project-manager.png" />
                 <div>
                     <p className="font-semibold text-sm">Aaron Díaz. Project Manager</p>
-                    <p className="text-xs">Nuestro equipo se encuentra trabajando en la codificación de un prototipo hecho en Figma para UPSIDE. El prototipo da una guía a los programadores para hacer funcional un plugin que resuma de manera efectiva la información tomada</p>
+                    <p className="text-xs max-h-[100px] overflow-scroll">Nuestro equipo se encuentra trabajando en la codificación de un prototipo hecho en Figma para UPSIDE. El prototipo da una guía a los programadores para hacer funcional un plugin que resuma de manera efectiva la información tomada</p>
                 </div>
             </div>
-            <div className="px-10 py-4 grid gap">
+
+            <div className="px-10 py-4 grid gap-2 max-h-[200px] overflow-y-scroll overflow-x-hidden">
                 <p className="font-semibold">Objetivos generales:</p>
                 <ul className="list-disc px-8 text-sm">
                     <li>Hacer funcional el sistema de reconocimiento de voz</li>
