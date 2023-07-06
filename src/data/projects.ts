@@ -11,7 +11,8 @@ export const projects = [
             "Incrustación del plugin a GPT 4"
           ]
         }
-      ]
+      ],
+      bgColor: 'linear-gradient(319deg, #889BFF 0%, #0072DB 99.29%)'
     },
     {
       name: 'Shopify App',
@@ -25,7 +26,8 @@ export const projects = [
             "Incrustación del plugin a GPT 4"
           ]
         }
-      ]
+      ],
+      bgColor: 'linear-gradient(319deg, #EEB257 0%, #EAA741 99.29%)'
     },
     {
       name: 'Chat App',
@@ -39,7 +41,8 @@ export const projects = [
             "Incrustación del plugin a GPT 4"
           ]
         }
-      ]
+      ],
+      bgColor: 'linear-gradient(319deg, #33DFBF 0%, #23D3B4 99.29%)'
     },
     {
       name: 'Vercel',
@@ -53,6 +56,7 @@ export const projects = [
             "Incrustación del plugin a GPT 4"
           ]
         }
-      ]
+      ],
+      bgColor: 'linear-gradient(319deg, #D872B6 0%, #AB889F 99.29%)'
     }
   ]

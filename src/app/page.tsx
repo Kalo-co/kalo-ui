@@ -24,7 +24,7 @@ export default function Home() {
       <div>
         <div className="grid lg:grid-cols-2 gap-8">
           {
-            projects.map((project) => <ProjectCard name={project.name} progress={project.progress} />)
+            projects.map((project) => <ProjectCard name={project.name} bgColor={project.bgColor} progress={project.progress} />)
           }
         </div>
       </div>
