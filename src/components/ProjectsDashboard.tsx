@@ -13,7 +13,7 @@ const ProjectsDashboard = () => {
 
 function Header() {
     return (
-        <div className="flex  justify-between">
+        <div className="grid md:flex justify-between">
             <div className="grid gap-2 lg:max-w-[412px]">
                 <h1 className='text-2xl font-bold'>Dashboard de proyectos</h1>
                 <p className='text-sm text-[#A4A4A4]'>Explora los proyectos en los que estás trabajando y revisa el estado en el que se encuentran</p>
@@ -30,7 +30,7 @@ function Header() {
 
 function ProjectsList() {
     return (
-        <div className="flex gap-8">
+        <div className="grid md:flex justify-between gap-8">
             <div>
                 <div className="grid lg:grid-cols-2 gap-8">
                     {
